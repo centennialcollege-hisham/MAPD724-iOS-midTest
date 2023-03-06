@@ -33,6 +33,8 @@
 		62BB78FA29B5891A00C9DD83 /* thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62BB78E729B5891A00C9DD83 /* thunder.mp3 */; };
 		62BB78FB29B5891A00C9DD83 /* yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62BB78E829B5891A00C9DD83 /* yay.mp3 */; };
 		62BB78FC29B5891A00C9DD83 /* Dock51.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62BB78EA29B5891A00C9DD83 /* Dock51.ttf */; };
+		62BB790029B589E900C9DD83 /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BB78FE29B589E900C9DD83 /* GameProtocol.swift */; };
+		62BB790129B589E900C9DD83 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BB78FF29B589E900C9DD83 /* GameObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,8 @@
 		62BB78E729B5891A00C9DD83 /* thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thunder.mp3; sourceTree = "<group>"; };
 		62BB78E829B5891A00C9DD83 /* yay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yay.mp3; sourceTree = "<group>"; };
 		62BB78EA29B5891A00C9DD83 /* Dock51.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dock51.ttf; sourceTree = "<group>"; };
+		62BB78FE29B589E900C9DD83 /* GameProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
+		62BB78FF29B589E900C9DD83 /* GameObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 		62BB78D529B5891A00C9DD83 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				62BB78FD29B589E900C9DD83 /* core */,
 				62BB78D629B5891A00C9DD83 /* images */,
 				62BB78E229B5891A00C9DD83 /* audio */,
 				62BB78E929B5891A00C9DD83 /* fonts */,
@@ -155,6 +160,15 @@
 				62BB78EA29B5891A00C9DD83 /* Dock51.ttf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		62BB78FD29B589E900C9DD83 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				62BB78FE29B589E900C9DD83 /* GameProtocol.swift */,
+				62BB78FF29B589E900C9DD83 /* GameObject.swift */,
+			);
+			path = core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				62BB78C329B5868300C9DD83 /* GameScene.swift in Sources */,
+				62BB790029B589E900C9DD83 /* GameProtocol.swift in Sources */,
 				62BB78C529B5868300C9DD83 /* GameViewController.swift in Sources */,
 				62BB78BD29B5868300C9DD83 /* AppDelegate.swift in Sources */,
+				62BB790129B589E900C9DD83 /* GameObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
