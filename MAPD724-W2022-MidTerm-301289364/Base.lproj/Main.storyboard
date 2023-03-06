@@ -38,6 +38,10 @@
                             <constraint firstItem="ctf-hD-PPx" firstAttribute="leading" secondItem="ZJN-9c-TFD" secondAttribute="leadingMargin" id="sHq-qm-V7k"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="LivesLabel" destination="ctf-hD-PPx" id="o8D-G5-YUg"/>
+                        <outlet property="ScoreLabel" destination="QjO-2v-5Px" id="nKG-aL-bbL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
