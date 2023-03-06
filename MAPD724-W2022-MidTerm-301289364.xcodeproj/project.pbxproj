@@ -192,8 +192,8 @@
 			children = (
 				62BB790329B58D9400C9DD83 /* Island.swift */,
 				62BB790429B58D9400C9DD83 /* Cloud.swift */,
-				62BB790529B58D9400C9DD83 /* Ocean.swift */,
 				62BB790629B58D9400C9DD83 /* Player.swift */,
+				62BB790529B58D9400C9DD83 /* Ocean.swift */,
 				62BB790729B58D9400C9DD83 /* Layer.swift */,
 			);
 			path = GameObjects;

@@ -7,6 +7,15 @@ let screenSize = UIScreen.main.bounds
 var screenWidth: CGFloat?
 var screenHeight: CGFloat?
 
+//  GameScene.swift
+//  The Mail Pilot demo
+//
+//  Created by Hisham Sanimeh on 05/03/2023.
+//  StudentID: 301289364
+//  App Description:  the Mail Pilot demo project we have been working on together in class. You will adjust the game
+//  so that you can play in landscape orientation
+//  Version: 1.0
+ 
 class GameScene: SKScene {
     
     var ocean: Ocean?

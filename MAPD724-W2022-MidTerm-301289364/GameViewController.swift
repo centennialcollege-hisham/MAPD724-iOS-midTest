@@ -3,6 +3,17 @@ import UIKit
 import SpriteKit
 import GameplayKit
 
+
+//  GameViewController.swift
+//  The Mail Pilot demo
+//
+//  Created by Hisham Sanimeh on 05/03/2023.
+//  StudentID: 301289364
+//  App Description:  the Mail Pilot demo project we have been working on together in class. You will adjust the game
+//  so that you can play in landscape orientation
+//  Version: 1.0
+
+
 class GameViewController: UIViewController {
     
     
@@ -60,6 +71,11 @@ class GameViewController: UIViewController {
     
     func updateScoreLabel()
     {
+        
+        if (Int(ScoreManager.Score) % 1000) == 0{
+            self.showToast(message: "Good Job \(ScoreManager.Score)", seconds: 0.3)
+        }
+        
         ScoreLabel.text = "Score: \(ScoreManager.Score)"
     }
     

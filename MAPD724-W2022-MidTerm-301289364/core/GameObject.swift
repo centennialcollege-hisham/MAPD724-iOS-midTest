@@ -2,7 +2,7 @@
 //  GameObject.swift
 //  The Mail Pilot demo
 //
-//  Created by Hisham Sanimeh on 05/05/2023.
+//  Created by Hisham Sanimeh on 05/03/2023.
 //  StudentID: 301289364
 //  App Description:  the Mail Pilot demo project we have been working on together in class. You will adjust the game
 //  so that you can play in landscape orientation
